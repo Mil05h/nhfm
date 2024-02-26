@@ -1,0 +1,14 @@
+{
+  "name": "nhfm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"yarn client\" \"yarn server\"",
+    "client": "cd client && yarn start",
+    "server": "cd server && yarn start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
